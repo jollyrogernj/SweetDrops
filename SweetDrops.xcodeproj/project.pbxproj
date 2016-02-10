@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71FA13351C6B76E2001C0BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA13341C6B76E2001C0BAC /* AppDelegate.swift */; };
+		71FA13371C6B76E2001C0BAC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA13361C6B76E2001C0BAC /* RootViewController.swift */; };
+		71FA13391C6B76E2001C0BAC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA13381C6B76E2001C0BAC /* DataViewController.swift */; };
+		71FA133B1C6B76E2001C0BAC /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA133A1C6B76E2001C0BAC /* ModelController.swift */; };
+		71FA133E1C6B76E2001C0BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FA133C1C6B76E2001C0BAC /* Main.storyboard */; };
+		71FA13401C6B76E2001C0BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FA133F1C6B76E2001C0BAC /* Assets.xcassets */; };
+		71FA13431C6B76E2001C0BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FA13411C6B76E2001C0BAC /* LaunchScreen.storyboard */; };
+		71FA134E1C6B76E2001C0BAC /* SweetDropsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA134D1C6B76E2001C0BAC /* SweetDropsTests.swift */; };
+		71FA13591C6B76E2001C0BAC /* SweetDropsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA13581C6B76E2001C0BAC /* SweetDropsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71FA134A1C6B76E2001C0BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FA13291C6B76E1001C0BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71FA13301C6B76E2001C0BAC;
+			remoteInfo = SweetDrops;
+		};
+		71FA13551C6B76E2001C0BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71FA13291C6B76E1001C0BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71FA13301C6B76E2001C0BAC;
+			remoteInfo = SweetDrops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71FA13311C6B76E2001C0BAC /* SweetDrops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetDrops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA13341C6B76E2001C0BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71FA13361C6B76E2001C0BAC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		71FA13381C6B76E2001C0BAC /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		71FA133A1C6B76E2001C0BAC /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		71FA133D1C6B76E2001C0BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71FA133F1C6B76E2001C0BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71FA13421C6B76E2001C0BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71FA13441C6B76E2001C0BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FA13491C6B76E2001C0BAC /* SweetDropsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetDropsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA134D1C6B76E2001C0BAC /* SweetDropsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetDropsTests.swift; sourceTree = "<group>"; };
+		71FA134F1C6B76E2001C0BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FA13541C6B76E2001C0BAC /* SweetDropsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetDropsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA13581C6B76E2001C0BAC /* SweetDropsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetDropsUITests.swift; sourceTree = "<group>"; };
+		71FA135A1C6B76E2001C0BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71FA132E1C6B76E2001C0BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13461C6B76E2001C0BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13511C6B76E2001C0BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71FA13281C6B76E1001C0BAC = {
+			isa = PBXGroup;
+			children = (
+				71FA13331C6B76E2001C0BAC /* SweetDrops */,
+				71FA134C1C6B76E2001C0BAC /* SweetDropsTests */,
+				71FA13571C6B76E2001C0BAC /* SweetDropsUITests */,
+				71FA13321C6B76E2001C0BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71FA13321C6B76E2001C0BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71FA13311C6B76E2001C0BAC /* SweetDrops.app */,
+				71FA13491C6B76E2001C0BAC /* SweetDropsTests.xctest */,
+				71FA13541C6B76E2001C0BAC /* SweetDropsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71FA13331C6B76E2001C0BAC /* SweetDrops */ = {
+			isa = PBXGroup;
+			children = (
+				71FA13341C6B76E2001C0BAC /* AppDelegate.swift */,
+				71FA13361C6B76E2001C0BAC /* RootViewController.swift */,
+				71FA13381C6B76E2001C0BAC /* DataViewController.swift */,
+				71FA133A1C6B76E2001C0BAC /* ModelController.swift */,
+				71FA133C1C6B76E2001C0BAC /* Main.storyboard */,
+				71FA133F1C6B76E2001C0BAC /* Assets.xcassets */,
+				71FA13411C6B76E2001C0BAC /* LaunchScreen.storyboard */,
+				71FA13441C6B76E2001C0BAC /* Info.plist */,
+			);
+			path = SweetDrops;
+			sourceTree = "<group>";
+		};
+		71FA134C1C6B76E2001C0BAC /* SweetDropsTests */ = {
+			isa = PBXGroup;
+			children = (
+				71FA134D1C6B76E2001C0BAC /* SweetDropsTests.swift */,
+				71FA134F1C6B76E2001C0BAC /* Info.plist */,
+			);
+			path = SweetDropsTests;
+			sourceTree = "<group>";
+		};
+		71FA13571C6B76E2001C0BAC /* SweetDropsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71FA13581C6B76E2001C0BAC /* SweetDropsUITests.swift */,
+				71FA135A1C6B76E2001C0BAC /* Info.plist */,
+			);
+			path = SweetDropsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71FA13301C6B76E2001C0BAC /* SweetDrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FA135D1C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDrops" */;
+			buildPhases = (
+				71FA132D1C6B76E2001C0BAC /* Sources */,
+				71FA132E1C6B76E2001C0BAC /* Frameworks */,
+				71FA132F1C6B76E2001C0BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetDrops;
+			productName = SweetDrops;
+			productReference = 71FA13311C6B76E2001C0BAC /* SweetDrops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71FA13481C6B76E2001C0BAC /* SweetDropsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FA13601C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDropsTests" */;
+			buildPhases = (
+				71FA13451C6B76E2001C0BAC /* Sources */,
+				71FA13461C6B76E2001C0BAC /* Frameworks */,
+				71FA13471C6B76E2001C0BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71FA134B1C6B76E2001C0BAC /* PBXTargetDependency */,
+			);
+			name = SweetDropsTests;
+			productName = SweetDropsTests;
+			productReference = 71FA13491C6B76E2001C0BAC /* SweetDropsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71FA13531C6B76E2001C0BAC /* SweetDropsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71FA13631C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDropsUITests" */;
+			buildPhases = (
+				71FA13501C6B76E2001C0BAC /* Sources */,
+				71FA13511C6B76E2001C0BAC /* Frameworks */,
+				71FA13521C6B76E2001C0BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71FA13561C6B76E2001C0BAC /* PBXTargetDependency */,
+			);
+			name = SweetDropsUITests;
+			productName = SweetDropsUITests;
+			productReference = 71FA13541C6B76E2001C0BAC /* SweetDropsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71FA13291C6B76E1001C0BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roger Portela";
+				TargetAttributes = {
+					71FA13301C6B76E2001C0BAC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					71FA13481C6B76E2001C0BAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 71FA13301C6B76E2001C0BAC;
+					};
+					71FA13531C6B76E2001C0BAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 71FA13301C6B76E2001C0BAC;
+					};
+				};
+			};
+			buildConfigurationList = 71FA132C1C6B76E2001C0BAC /* Build configuration list for PBXProject "SweetDrops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71FA13281C6B76E1001C0BAC;
+			productRefGroup = 71FA13321C6B76E2001C0BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71FA13301C6B76E2001C0BAC /* SweetDrops */,
+				71FA13481C6B76E2001C0BAC /* SweetDropsTests */,
+				71FA13531C6B76E2001C0BAC /* SweetDropsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71FA132F1C6B76E2001C0BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA13431C6B76E2001C0BAC /* LaunchScreen.storyboard in Resources */,
+				71FA13401C6B76E2001C0BAC /* Assets.xcassets in Resources */,
+				71FA133E1C6B76E2001C0BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13471C6B76E2001C0BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13521C6B76E2001C0BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71FA132D1C6B76E2001C0BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA13371C6B76E2001C0BAC /* RootViewController.swift in Sources */,
+				71FA133B1C6B76E2001C0BAC /* ModelController.swift in Sources */,
+				71FA13391C6B76E2001C0BAC /* DataViewController.swift in Sources */,
+				71FA13351C6B76E2001C0BAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13451C6B76E2001C0BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA134E1C6B76E2001C0BAC /* SweetDropsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FA13501C6B76E2001C0BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FA13591C6B76E2001C0BAC /* SweetDropsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71FA134B1C6B76E2001C0BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71FA13301C6B76E2001C0BAC /* SweetDrops */;
+			targetProxy = 71FA134A1C6B76E2001C0BAC /* PBXContainerItemProxy */;
+		};
+		71FA13561C6B76E2001C0BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71FA13301C6B76E2001C0BAC /* SweetDrops */;
+			targetProxy = 71FA13551C6B76E2001C0BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71FA133C1C6B76E2001C0BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71FA133D1C6B76E2001C0BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71FA13411C6B76E2001C0BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71FA13421C6B76E2001C0BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71FA135B1C6B76E2001C0BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71FA135C1C6B76E2001C0BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71FA135E1C6B76E2001C0BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SweetDrops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71FA135F1C6B76E2001C0BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SweetDrops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDrops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71FA13611C6B76E2001C0BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SweetDropsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDropsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetDrops.app/SweetDrops";
+			};
+			name = Debug;
+		};
+		71FA13621C6B76E2001C0BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SweetDropsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDropsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetDrops.app/SweetDrops";
+			};
+			name = Release;
+		};
+		71FA13641C6B76E2001C0BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SweetDropsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDropsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SweetDrops;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71FA13651C6B76E2001C0BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SweetDropsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRMC.SweetDropsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SweetDrops;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71FA132C1C6B76E2001C0BAC /* Build configuration list for PBXProject "SweetDrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA135B1C6B76E2001C0BAC /* Debug */,
+				71FA135C1C6B76E2001C0BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71FA135D1C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA135E1C6B76E2001C0BAC /* Debug */,
+				71FA135F1C6B76E2001C0BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71FA13601C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDropsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA13611C6B76E2001C0BAC /* Debug */,
+				71FA13621C6B76E2001C0BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71FA13631C6B76E2001C0BAC /* Build configuration list for PBXNativeTarget "SweetDropsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FA13641C6B76E2001C0BAC /* Debug */,
+				71FA13651C6B76E2001C0BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71FA13291C6B76E1001C0BAC /* Project object */;
+}
